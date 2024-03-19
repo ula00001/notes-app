@@ -73,9 +73,7 @@ export default {
       immediate: true,
       handler(newVal) {
         if (newVal) {
-          console.log("GRGRGSG", newVal);
           this.ruleForm = { ...newVal };
-          // Преобразование даты не требуется, если используется value-format="yyyy-MM-DD" в <el-date-picker>
         }
       },
     },
